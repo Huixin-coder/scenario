@@ -25,16 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172092605065568}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4213760958180704}
-  - {fileID: 4743670097161820}
-  - {fileID: 4210056765170042}
-  - {fileID: 4818427791460364}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 4592236589341652}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33158859118989066
 MeshFilter:
@@ -55,6 +52,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -97,7 +95,7 @@ GameObject:
   - component: {fileID: 33815949824780392}
   - component: {fileID: 23069402282322732}
   m_Layer: 0
-  m_Name: TrafficW1
+  m_Name: right_font_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,12 +108,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227776754031544}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 1.4021608, y: 0, z: 0.7283249}
   m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4818427791460364}
-  m_RootOrder: 0
+  m_Father: {fileID: 4550788615055310628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33815949824780392
 MeshFilter:
@@ -136,6 +135,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 33311972104488796}
   - component: {fileID: 23341938837244876}
   m_Layer: 0
-  m_Name: TrafficW1
+  m_Name: left_rear_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,12 +191,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302350276953002}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 1.3645021, y: 0, z: -2.6267548}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4743670097161820}
-  m_RootOrder: 0
+  m_Father: {fileID: 4550788615055310628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33311972104488796
 MeshFilter:
@@ -217,6 +218,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -257,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4743670097161820}
   m_Layer: 0
-  m_Name: WDR
+  m_Name: BackLeftCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,13 +272,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324248088428796}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.79, y: -0.5, z: -1.39}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 294.13644, y: -0.9699999, z: 126.20174}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4180414373527160}
-  m_Father: {fileID: 4578353374019660}
-  m_RootOrder: 1
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3108914857831300344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1542796692939088
 GameObject:
@@ -288,7 +290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4210056765170042}
   m_Layer: 0
-  m_Name: WPF
+  m_Name: BackRightCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,13 +303,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542796692939088}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.79, y: -0.5, z: -1.3899994}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 295.53854, y: -0.97, z: 126.93005}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4078655825953898}
-  m_Father: {fileID: 4578353374019660}
-  m_RootOrder: 2
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3108914857831300344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549519983694770
 GameObject:
@@ -321,7 +323,7 @@ GameObject:
   - component: {fileID: 33586065867492230}
   - component: {fileID: 23508597706951548}
   m_Layer: 0
-  m_Name: TrafficW1
+  m_Name: left_font_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -334,12 +336,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549519983694770}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4213760958180704}
-  m_RootOrder: 0
+  m_Father: {fileID: 4550788615055310628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33586065867492230
 MeshFilter:
@@ -360,6 +363,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -413,13 +417,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663436209126694}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.7829142, y: 0, z: 0.79245424}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4578353374019660}
+  - {fileID: 4550788615055310628}
+  - {fileID: 3108914857831300344}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684231107276866
 GameObject:
@@ -431,7 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4818427791460364}
   m_Layer: 0
-  m_Name: WPR
+  m_Name: FrontRightCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,13 +451,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684231107276866}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.78999996, y: -0.5, z: 1.5699997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 294.17407, y: -0.97, z: 129.55681}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4087603435864242}
-  m_Father: {fileID: 4578353374019660}
-  m_RootOrder: 3
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3108914857831300344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777151905926048
 GameObject:
@@ -462,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4213760958180704}
   m_Layer: 0
-  m_Name: WDF
+  m_Name: FrontLeftCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -475,13 +482,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777151905926048}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.79, y: -0.5, z: 1.5699997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 292.7719, y: -0.9699999, z: 128.82848}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4805303923930970}
-  m_Father: {fileID: 4578353374019660}
-  m_RootOrder: 0
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3108914857831300344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1796418061844460
 GameObject:
@@ -495,7 +502,7 @@ GameObject:
   - component: {fileID: 33423116829769666}
   - component: {fileID: 23132691251829160}
   m_Layer: 0
-  m_Name: TrafficW1
+  m_Name: right_rare_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,12 +515,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796418061844460}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000001683068, y: -0.23725706, z: -0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: 2.7666018, y: 0, z: -1.8984301}
   m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4210056765170042}
-  m_RootOrder: 0
+  m_Father: {fileID: 4550788615055310628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33423116829769666
 MeshFilter:
@@ -534,6 +542,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -564,3 +573,73 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3510190009139338331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4550788615055310628}
+  m_Layer: 0
+  m_Name: WheelMeshes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4550788615055310628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510190009139338331}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000001683068, y: 0.23725706, z: 0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: -0.79002595, y: 0.32000002, z: 1.5700127}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4805303923930970}
+  - {fileID: 4180414373527160}
+  - {fileID: 4078655825953898}
+  - {fileID: 4087603435864242}
+  m_Father: {fileID: 4592236589341652}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5364190803647588389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3108914857831300344}
+  m_Layer: 0
+  m_Name: WheelColliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3108914857831300344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364190803647588389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000001683068, y: 0.23725706, z: 0.000000015639698, w: 0.97144693}
+  m_LocalPosition: {x: -0.2, y: 1.3, z: -0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4213760958180704}
+  - {fileID: 4743670097161820}
+  - {fileID: 4210056765170042}
+  - {fileID: 4818427791460364}
+  m_Father: {fileID: 4592236589341652}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
